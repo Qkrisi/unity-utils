@@ -34,12 +34,12 @@ namespace UnityUtils
         public static implicit operator CallOptions(BindingFlags Flags) => new CallOptions(false, false, Flags);
     }
 
-    public class AllowMultiple : CallOptions
+    public sealed class AllowMultiple : CallOptions
     {
         public AllowMultiple() : base(true, false) { }
     }
 
-    public class AllowChildren : CallOptions
+    public sealed class AllowChildren : CallOptions
     {
         public AllowChildren() : base(false, true) { }
     }
