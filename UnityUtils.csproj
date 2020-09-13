@@ -29,7 +29,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
-      <HintPath>packages\UnityEngine.dll</HintPath>
+      <HintPath>external\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
