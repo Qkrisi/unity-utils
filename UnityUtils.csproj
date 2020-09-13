@@ -39,7 +39,7 @@
     <Compile Include="src\CallMethod\CallMethod.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="packages\" />
+    <Folder Include="external\" />
     <Folder Include="src\" />
     <Folder Include="src\CallMethod\" />
   </ItemGroup>
